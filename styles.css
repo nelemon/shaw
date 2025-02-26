@@ -7,10 +7,9 @@ body {
     font-weight: bold; /* Сделать весь текст жирным */
     font-size: 16px; /* Увеличен общий размер текста */
     display: flex;
-    justify-content: center; /* Центрирование контента */
-    align-items: center;
+    flex-direction: column; /* Элементы будут располагаться по вертикали */
+    align-items: flex-start; /* Выравнивание по левому краю */
     height: 100vh; /* Высота на весь экран */
-    text-align: center; /* Центрирование текста */
 }
 
 .container {
@@ -27,7 +26,7 @@ body {
     display: flex;
     padding: 20px; /* Увеличены отступы внутри товара */
     align-items: center; /* Выравнивание по центру по вертикали */
-    justify-content: flex-start; /* Чтобы текст не был по центру */
+    justify-content: flex-start; /* Текст будет выровнен слева */
 }
 
 .shawerma img {
