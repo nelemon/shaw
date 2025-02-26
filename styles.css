@@ -21,12 +21,12 @@ body {
 
 .shawerma {
     display: flex;
-    padding: 20px; /* Увеличены отступы внутри товара */
+    padding: 10px; /* Увеличены отступы внутри товара */
     align-items: center;
 }
 
 .shawerma img {
-    width: 100px; /* Увеличен размер картинок */
+    width: 120px; /* Увеличен размер картинок */
     height: auto;
     border-radius: 15px;
     margin-right: 30px; /* Увеличено расстояние между картинкой и текстом */
