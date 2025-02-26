@@ -4,6 +4,7 @@ body {
     color: white;
     margin: 0;
     padding: 20px;
+    font-weight: bold; /* Сделать весь текст жирным */
 }
 
 .container {
@@ -24,7 +25,7 @@ body {
 }
 
 .shawerma img {
-    width: 150px;
+    width: 130px; /* Уменьшен размер картинок */
     height: auto;
     border-radius: 10px;
     margin-right: 15px; /* Отступ между картинкой и текстом */
