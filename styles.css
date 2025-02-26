@@ -37,7 +37,7 @@ body {
 .shawerma-text {
     text-align: left;
     flex-grow: 1; /* Текст будет растягиваться на всю доступную ширину */
-    padding-right: 10px; /* Добавлен отступ справа */
+    padding-right: 5px; /* Добавлен отступ справа */
     box-sizing: border-box; /* Учитывает padding в расчет ширины */
 }
 
