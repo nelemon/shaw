@@ -21,7 +21,7 @@ body {
 
 .shawerma {
     display: flex;
-    padding: 5px; /* Увеличены отступы внутри товара */
+    padding: 10px; /* Увеличены отступы внутри товара */
     align-items: center;
 }
 
