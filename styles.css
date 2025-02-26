@@ -29,7 +29,7 @@ body {
     width: 130px; /* Уменьшен размер картинок */
     height: auto;
     border-radius: 10px;
-    margin-right: 10px; /* Уменьшено расстояние между картинкой и текстом */
+    margin-right: 20px; /* Уменьшено расстояние между картинкой и текстом */
 }
 
 .shawerma-text {
