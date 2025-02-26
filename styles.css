@@ -15,7 +15,7 @@ body {
 
 .shawerma-list {
     display: grid;
-    gap: 10px; /* Увеличено расстояние между товарами */
+    gap: 20px; /* Увеличено расстояние между товарами */
 }
 
 .shawerma {
@@ -24,6 +24,7 @@ body {
     align-items: center; /* Выравнивание по центру по вертикали */
     justify-content: flex-start; /* Выравнивание текста слева */
     width: 100%; /* Задаем полную ширину для каждого товара */
+    box-sizing: border-box; /* Чтобы padding не выходил за пределы контейнера */
 }
 
 .shawerma img {
@@ -37,6 +38,7 @@ body {
     text-align: left;
     flex-grow: 1; /* Текст будет растягиваться на всю доступную ширину */
     padding-right: 15px; /* Добавлен отступ справа */
+    box-sizing: border-box; /* Учитывает padding в расчет ширины */
 }
 
 h2 {
