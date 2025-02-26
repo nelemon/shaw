@@ -18,14 +18,22 @@ body {
 }
 
 .pizza {
+    display: flex;
     background: #333;
     padding: 15px;
     border-radius: 10px;
+    align-items: center; /* Выравнивание по центру по вертикали */
 }
 
 .pizza img {
-    width: 100%;
+    width: 150px;
+    height: auto;
     border-radius: 10px;
+    margin-right: 15px; /* Отступ между картинкой и текстом */
+}
+
+.pizza-text {
+    text-align: left;
 }
 
 h1 {
