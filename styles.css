@@ -26,7 +26,7 @@ body {
 }
 
 .shawerma img {
-    width: 120px; /* Увеличен размер картинок */
+    width: 140px; /* Увеличен размер картинок */
     height: auto;
     border-radius: 15px;
     margin-right: 20px; /* Увеличено расстояние между картинкой и текстом */
