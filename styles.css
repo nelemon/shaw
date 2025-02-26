@@ -21,8 +21,9 @@ body {
 
 .shawerma {
     display: flex;
-    padding: 10px; /* Увеличены отступы внутри товара */
+    padding: 10px;
     align-items: center;
+    cursor: pointer; /* Сделали товары кликабельными */
 }
 
 .shawerma img {
