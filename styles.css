@@ -16,12 +16,12 @@ body {
 
 .shawerma-list {
     display: grid;
-    gap: 5px; /* Уменьшено расстояние между товарами */
+    gap: 15px; /* Уменьшено расстояние между товарами */
 }
 
 .shawerma {
     display: flex;
-    padding: 5px; /* Уменьшены отступы внутри товара */
+    padding: 10px; /* Уменьшены отступы внутри товара */
     align-items: center; /* Выравнивание по центру по вертикали */
 }
 
@@ -29,7 +29,7 @@ body {
     width: 130px; /* Уменьшен размер картинок */
     height: auto;
     border-radius: 10px;
-    margin-right: 20px; /* Уменьшено расстояние между картинкой и текстом */
+    margin-right: 10px; /* Уменьшено расстояние между картинкой и текстом */
 }
 
 .shawerma-text {
