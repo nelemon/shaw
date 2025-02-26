@@ -23,6 +23,7 @@ body {
     padding: 20px; /* Увеличены отступы внутри товара */
     align-items: center; /* Выравнивание по центру по вертикали */
     justify-content: flex-start; /* Выравнивание текста слева */
+    width: 100%; /* Задаем полную ширину для каждого товара */
 }
 
 .shawerma img {
@@ -34,6 +35,7 @@ body {
 
 .shawerma-text {
     text-align: left;
+    flex-grow: 1; /* Текст будет растягиваться на всю доступную ширину */
 }
 
 h2 {
