@@ -52,7 +52,7 @@ p {
     border-radius: 15px;
     margin-top: 5px;
     color: #fff;
-    font-size: 11px; /* Уменьшить размер текста для цены */
+    font-size: 10px; /* Уменьшить размер текста для цены */
     font-weight: normal;
 }
 
