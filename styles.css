@@ -12,25 +12,25 @@ body {
     text-align: center;
 }
 
-.pizza-list {
+.shawerma-list {
     display: grid;
     gap: 20px;
 }
 
-.pizza {
+.shawerma {
     display: flex;
     padding: 15px;
     align-items: center; /* Выравнивание по центру по вертикали */
 }
 
-.pizza img {
+.shawerma img {
     width: 150px;
     height: auto;
     border-radius: 10px;
     margin-right: 15px; /* Отступ между картинкой и текстом */
 }
 
-.pizza-text {
+.shawerma-text {
     text-align: left;
 }
 
@@ -44,5 +44,5 @@ body {
 }
 
 h1 {
-    color: #ffcc00;
+    display: none;
 }
