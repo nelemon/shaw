@@ -3,33 +3,38 @@ body {
     background-color: #222;
     color: white;
     margin: 0;
-    padding: 5px;
+    padding: 20px; /* Увеличено пространство для удобства */
     font-weight: bold; /* Сделать весь текст жирным */
-    font-size: 14px; /* Уменьшить размер текста */
+    font-size: 16px; /* Увеличен общий размер текста */
+    display: flex;
+    justify-content: center; /* Центрирование контента */
+    align-items: center;
+    height: 100vh; /* Высота на весь экран */
+    text-align: center; /* Центрирование текста */
 }
 
 .container {
-    max-width: 600px;
-    margin: auto;
-    text-align: center;
+    max-width: 700px; /* Увеличено максимальное расстояние */
+    width: 100%;
 }
 
 .shawerma-list {
     display: grid;
-    gap: 15px; /* Уменьшено расстояние между товарами */
+    gap: 20px; /* Увеличено расстояние между товарами */
 }
 
 .shawerma {
     display: flex;
-    padding: 10px; /* Уменьшены отступы внутри товара */
+    padding: 20px; /* Увеличены отступы внутри товара */
     align-items: center; /* Выравнивание по центру по вертикали */
+    justify-content: flex-start; /* Чтобы текст не был по центру */
 }
 
 .shawerma img {
-    width: 130px; /* Уменьшен размер картинок */
+    width: 160px; /* Увеличен размер картинок */
     height: auto;
     border-radius: 10px;
-    margin-right: 20px; /* Уменьшено расстояние между картинкой и текстом */
+    margin-right: 20px; /* Отступ между картинкой и текстом */
 }
 
 .shawerma-text {
@@ -37,27 +42,27 @@ body {
 }
 
 h2 {
-    font-size: 10px; /* Сделать заголовок (название шавермы) больше */
-    line-height: 1.2; /* Уменьшить расстояние между строками заголовка */
-    margin-bottom: 5px; /* Уменьшить расстояние между заголовком и описанием */
+    font-size: 16px; /* Увеличен размер шрифта для заголовка */
+    line-height: 1.3; /* Уменьшено расстояние между строками заголовка */
+    margin-bottom: 8px; /* Увеличено расстояние между заголовком и описанием */
 }
 
 p {
-    font-size: 8px; /* Оставляем размер шрифта для описания */
+    font-size: 10px; /* Увеличен размер шрифта для описания */
     color: #888; /* Цвет описания */
-    line-height: 1.2; /* Уменьшить расстояние между строками описания */
-    margin-bottom: 5px; /* Уменьшить расстояние между описанием и ценой */
+    line-height: 1.3; /* Уменьшено расстояние между строками описания */
+    margin-bottom: 8px; /* Увеличено расстояние между описанием и ценой */
     font-weight: 500; /* Небольшая жирность для описания */
 }
 
 .price {
     display: inline-block;
     background-color: #333;
-    padding: 4px 12px;
+    padding: 8px 16px;
     border-radius: 15px;
-    margin-top: 5px; /* Уменьшено расстояние между ценой и описанием */
+    margin-top: 10px; /* Увеличено расстояние между ценой и описанием */
     color: #fff;
-    font-size: 8px; /* Уменьшить размер текста для цены */
+    font-size: 12px; /* Увеличен размер шрифта для цены */
     font-weight: normal; /* Убрать жирность для цены */
 }
 
