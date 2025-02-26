@@ -51,7 +51,7 @@ p {
     border-radius: 15px;
     margin-top: 10px;
     color: #fff;
-    font-size: 13px; /* Уменьшить размер текста для цены */
+    font-size: 8px; /* Уменьшить размер текста для цены */
 }
 
 h1 {
